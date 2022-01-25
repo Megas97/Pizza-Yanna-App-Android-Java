@@ -1,0 +1,92 @@
+Android Pizza Order App; Use Of RadioButtons, CheckBox, Switch ...: https://www.youtube.com/watch?v=IBE_719AqKs&t=893s
+Bottom Navigation View Using Fragments Tutorial: https://www.youtube.com/watch?v=pS1g6yfzm0U
+Fragment Button Click Tutorial: https://www.youtube.com/watch?v=x9QB_XXO-uk
+Navigation Drawer With Fragments - Menu And Activity Theme (Part 1): https://www.youtube.com/watch?v=fGcMLu1GJEc
+Navigation Drawer With Fragments - Layout And Hamburger Icon (Part 2): https://www.youtube.com/watch?v=zYVEMCiDcmY
+Navigation Drawer With Fragments - Handling Menu Item Clicks (Part 3): https://www.youtube.com/watch?v=bjYstsO1PgI
+Login And Register Form Using SQLite Database In Android Studio: https://www.youtube.com/watch?v=8obgNNlj3Eo
+
+Android Studio SDK Manager: https://developer.android.com/studio/intro/update#sdk-manager
+Run App On Android Emulator: https://developer.android.com/studio/run/emulator
+Emulator Small Screen Area Error Fix: https://stackoverflow.com/questions/43539759/android-emulator-screen-size-issue
+Add Background Image To Activity: https://stackoverflow.com/questions/3307090/how-to-add-background-image-to-activity
+How To Re-Enable Design Palette In Android Studio: https://stackoverflow.com/questions/19550594/how-re-enable-design-palette-in-android-studio
+Set Font Style To Bold, Italic And Underlined In Android TextView: https://stackoverflow.com/questions/4623508/how-to-set-the-font-style-to-bold-italic-and-underlined-in-an-android-textview
+Change Text Size In Android Studio: https://stackoverflow.com/questions/13264794/font-size-of-textview-in-android-application-changes-on-changing-font-size-from
+How To Use RelativeLayout: https://stackoverflow.com/questions/8497007/android-relativelayout-how-to-position
+setContentView(R.Layout.main) Vs. startActivity(intent): https://stackoverflow.com/questions/5617291/setcontentviewr-layout-main-vs-startactivityintent-which-is-more-common
+Back Button For Previous Activity: https://stackoverflow.com/questions/42001007/android-studio-back-button-for-previous-activity
+Back Button In The Title Bar: https://stackoverflow.com/questions/14545139/android-back-button-in-the-title-bar
+Read Value From string.xml: https://stackoverflow.com/questions/2183962/how-to-read-value-from-string-xml-in-android
+Set Part Of TextView Clickable: https://stackoverflow.com/questions/10696986/how-to-set-the-part-of-the-text-view-is-clickable
+Add Long Text With Many Paragraphs In string.xml: https://stackoverflow.com/questions/27600151/how-to-add-a-long-text-with-many-paragraphs-in-string-xml-in-android/27600262
+'Installation failed due to: ''cmd package install-create -r -t --user current --full --dont-kill -S 4540547' returns error 'Unknown failure: cmd: Can't find service: package''' Error Fix: https://stackoverflow.com/questions/57374314/installation-failed-with-message-failed-to-create-install-session-with-cmd-pack
+New Line Or Tab In <string> XML (Eclipse/Android): https://stackoverflow.com/questions/14091760/how-to-make-a-new-line-or-tab-in-string-xml-eclipse-android
+Make A LinearLayout Scrollable: https://stackoverflow.com/questions/4055537/how-do-you-make-a-linearlayout-scrollable
+Center TextView Horizontally In LinearLayout: https://stackoverflow.com/questions/7651912/android-center-textview-horizontally-in-linearlayout
+Get Checked CheckBox Values: https://stackoverflow.com/questions/9411540/android-get-checked-checkbox-values
+Display Toast Notification In Android: https://stackoverflow.com/questions/3500197/how-to-display-toast-in-android
+Display Two Items In One Row Using LinearLayout: https://stackoverflow.com/questions/31710047/i-want-to-display-two-items-in-one-row-in-listview
+Create A Dropdown List: https://stackoverflow.com/questions/13377361/how-to-create-a-drop-down-list
+Capture onClick Event In Android For A Spinner: https://stackoverflow.com/questions/10213015/how-to-capture-onclick-event-in-android-for-a-spinner
+Increase And Decrease Integer Value When Button Is Clicked: https://www.viralandroid.com/2015/10/how-to-increase-and-decrease-integer-value-when-the-button-is-clicked.html
+Implement Multi Select Dropdown In Android: https://www.geeksforgeeks.org/how-to-implement-multiselect-dropdown-in-android/
+Java Equivalent To #region In C#: https://stackoverflow.com/questions/2344524/java-equivalent-to-region-in-c-sharp
+#region In Android Studio XML Files: https://stackoverflow.com/questions/39206426/is-their-a-region-like-folding-feature-for-android-studio
+Hot Pepper Unicode Character: https://www.compart.com/en/unicode/U+1F336
+Import Android Design Support Library: https://stackoverflow.com/questions/30543098/import-new-android-design-support-library
+findViewById In Fragment: https://stackoverflow.com/questions/6495898/findviewbyid-in-fragment
+Android Design Support Library: Bottom Navigation View: https://hitherejoe.medium.com/exploring-the-android-design-support-library-bottom-navigation-drawer-548de699e8e0
+'Cannot infer type arguments (unable to resolve constructor)' ArrayAdapter Error Fix: https://stackoverflow.com/questions/34388547/cannot-infer-type-arguments-for-arrayadapter
+Move From One Fragment To Another: https://stackoverflow.com/questions/23212162/how-to-move-from-one-fragment-to-another-fragment-on-click-of-an-imageview-in-an
+getSupportActionBar From Inside Fragment: https://stackoverflow.com/questions/18320713/getsupportactionbar-from-inside-of-fragment-actionbarcompat
+Manage ActionBar Back Button From Fragment: https://stackoverflow.com/questions/29558568/manage-toolbars-navigation-and-back-button-from-fragment-in-android
+Get The Currently Displayed Fragment: https://stackoverflow.com/questions/9294603/how-do-i-get-the-currently-displayed-fragment
+Put TextView Over ImageView In LinearLayout: https://stackoverflow.com/questions/28112421/put-a-textview-over-imageview-in-linearlayout/28112828
+Toggle Between Hamburger Menu And Back Arrow: https://stackoverflow.com/questions/41547122/android-hamburger-menu-and-back-arrow
+onOptionsItemSelected Not Called When Using app:menu="@menu/your_menu" Fix: https://stackoverflow.com/questions/42705429/onoptionsitemselected-not-called
+Toolbar Hamburger Button onClick Listener: https://stackoverflow.com/questions/33981907/toolbar-hamburger-on-click-listener
+Go Back To Previous Fragment In Backstack: https://stackoverflow.com/questions/10863572/programmatically-go-back-to-the-previous-fragment-in-the-backstack
+Get Activity Name: https://stackoverflow.com/questions/10628152/get-activity-name-dynamically-android
+Uncheck MenuItem: https://stackoverflow.com/questions/41372293/bottomnavigationview-how-to-uncheck-all-menuitems-and-keep-titles-being-displa
+Hide Back Button On Toolbar: https://stackoverflow.com/questions/36131573/dont-show-back-button-on-android-toolbar
+Hide BottomNavigationView In Specific Fragment: https://stackoverflow.com/questions/50158558/how-to-hide-bottomnavigation-barbotton-navigation-bar-activity-in-specific-fra
+Align View At The Bottom Of The Screen: https://stackoverflow.com/questions/2386866/how-do-i-align-views-at-the-bottom-of-the-screen
+Make Layout With Rounded Corners: https://stackoverflow.com/questions/16161448/how-to-make-layout-with-rounded-corners
+BottomNavigationView Overlapping Page Content Fix: https://stackoverflow.com/questions/46117230/bottomnavigationview-overlapping-framelayout-in-coordinatorlayout
+Clear Back Stack Using Fragments: https://stackoverflow.com/questions/6186433/clear-back-stack-using-fragments
+Comments In Android Layout XML: https://stackoverflow.com/questions/3484643/comments-in-android-layout-xml/3484726
+Check If EditText Field Is Empty: https://stackoverflow.com/questions/6290531/how-do-i-check-if-my-edittext-fields-are-empty
+Hide Android Soft Keyboard: https://stackoverflow.com/questions/1109022/how-do-you-close-hide-the-android-soft-keyboard-programmatically
+Pass Data Between Activities In Android: https://stackoverflow.com/questions/2091465/how-do-i-pass-data-between-activities-in-android-application
+Access Activity Variables From A Fragment: https://stackoverflow.com/questions/13067033/how-to-access-activity-variables-from-a-fragment-android
+How To Print To The Console In Android Studio: https://stackoverflow.com/questions/16780294/how-to-print-to-the-console-in-android-studio
+'Couldn't read row 0, col 1 from CursorWindow' SQLite Error Fix: https://stackoverflow.com/questions/23565467/android-sqlite-error-couldnt-read-row-0-col-1-from-cursorwindow
+Set Timer In Android: https://stackoverflow.com/questions/4817933/what-is-the-equivalent-to-a-javascript-setinterval-settimeout-in-android-java
+Add TextView Dynamically In Fragment: https://stackoverflow.com/questions/13046407/adding-a-textview-dynamically-in-fragment
+Show ImageView Programmatically: https://stackoverflow.com/questions/6180802/show-imageview-programmatically
+Set TextView Text Size Programmatically: https://stackoverflow.com/questions/6998938/textview-setting-the-text-size-programmatically-doesnt-seem-to-work?rq=1
+Set TextView android:gravity Programmatically: https://stackoverflow.com/questions/3775705/how-set-the-androidgravity-to-textview-from-java-side-in-android
+Create Custom Objects On The Fly: https://stackoverflow.com/questions/25146411/create-custom-objects-on-the-fly
+Get String From Resources Using Its Name: https://stackoverflow.com/questions/7493287/android-how-do-i-get-string-from-resources-using-its-name
+Convert String To Double In Java: https://www.geeksforgeeks.org/convert-string-to-double-in-java/
+Get Spinner Selected Items Text: https://stackoverflow.com/questions/5787809/get-spinner-selected-items-text?rq=1
+Convert Double To String In Java: https://stackoverflow.com/questions/5766318/converting-double-to-string
+Check If An Array Of Objects Contains An Object With A Specific Property: https://stackoverflow.com/questions/65347928/check-if-an-array-of-objects-with-a-specific-property-java
+How To Replace R.drawable."someString": https://stackoverflow.com/questions/9481334/how-to-replace-r-drawable-somestring/9481452
+Margins Of A LinearLayout, Programmatically With DP: https://stackoverflow.com/questions/4914039/margins-of-a-linearlayout-programmatically-with-dp
+Center A Button Created Programatically: https://stackoverflow.com/questions/11657263/android-how-to-center-a-button-programatically-created
+Apply Theme To Button Programmatically: https://coderedirect.com/questions/648531/apply-theme-to-button-programmatically
+Recreate A Fragment: https://stackoverflow.com/questions/39296873/how-can-i-recreate-a-fragment/50171100
+Passing ArrayList Through Intent: https://stackoverflow.com/questions/5374546/passing-arraylist-through-intent
+Check If Extras Are Set Or Not: https://stackoverflow.com/questions/8255618/check-if-extras-are-set-or-not
+Set TextView textStyle Such As Bold, Italic: https://stackoverflow.com/questions/6200533/how-to-set-textview-textstyle-such-as-bold-italic
+finish() Activity Twice In Android: https://stackoverflow.com/questions/10808223/finish-activity-twice-in-android
+Emulator In Landscape Mode, Screen Does Not Rotate: https://stackoverflow.com/questions/7394447/android-emulator-in-landscape-mode-screen-does-not-rotate/16121394
+Prevent Android App Losing Data During Orientation Change: https://stackoverflow.com/questions/15043222/android-app-losing-data-during-orientation-change
+getIntent.getSerializable() Returns 'null': https://stackoverflow.com/questions/38717656/getintent-getserializable-returns-null
+Set Text Size Using Dimension From XML At Runtime Programmatically: https://stackoverflow.com/questions/14540293/how-to-set-text-size-using-dimension-from-xml-at-runtime-programmatically
+Display Double In 2 Decimal Places: https://mkyong.com/java/java-display-double-in-2-decimal-points/
+Read Value From strings.xml In Java Code: https://stackoverflow.com/questions/2183962/how-to-read-value-from-string-xml-in-android
+
+Test Android Application On Real Device Via USB: https://developer.android.com/training/basics/firstapp/running-app
