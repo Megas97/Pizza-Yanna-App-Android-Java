@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DIYPizzaActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/dIYPizzaContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/yourVeryOwnPizzaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yourVeryOwnPizzaText"
+                android:textSize="@dimen/sp32"
+                android:layout_marginTop="@dimen/dp20"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/greeneryDropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp50"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/greeneryDropdownText"
+                android:padding="@dimen/dp12"
+                app:drawableRightCompat="@android:drawable/arrow_down_float" />
+
+            <TextView
+                android:id="@+id/meatsDropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                app:drawableRightCompat="@android:drawable/arrow_down_float"
+                android:hint="@string/meatsDropdownText"
+                android:padding="@dimen/dp12" />
+
+            <TextView
+                android:id="@+id/saucesDropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                app:drawableRightCompat="@android:drawable/arrow_down_float"
+                android:hint="@string/saucesDropdownText"
+                android:padding="@dimen/dp12" />
+
+            <TextView
+                android:id="@+id/addonsDropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                app:drawableRightCompat="@android:drawable/arrow_down_float"
+                android:hint="@string/addonsDropdownText"
+                android:padding="@dimen/dp12" />
+
+            <TextView
+                android:id="@+id/estimatedPriceText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/estimatedPriceText"
+                android:textSize="@dimen/sp26"
+                android:layout_marginTop="@dimen/dp30"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/dIYPizzaPriceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaSmallPriceText"
+                android:textSize="@dimen/sp26"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/dIYChooseSizeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp26"
+                android:layout_marginTop="@dimen/dp30"
+                android:text="@string/chooseSizeText" />
+
+            <Spinner
+                android:id="@+id/dIYPizzaDropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <!--region DIY Pizza Quantity Part-->
+            <LinearLayout
+                android:id="@+id/pepperoniPizzaQuantityContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp14">
+
+                <Button
+                    android:id="@+id/dIYPizzaDecreaseQuantityButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decreaseQuantityButtonText" />
+
+                <TextView
+                    android:id="@+id/dIYPizzaQuantityAmountText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:layout_marginRight="@dimen/dp6"
+                    android:text="@string/defaultQuantityAmountText"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sp30" />
+
+                <Button
+                    android:id="@+id/dIYPizzaIncreaseQuantityButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increaseQuantityButtonText" />
+            </LinearLayout>
+            <!--endregion-->
+
+            <Button
+                android:id="@+id/dIYPizzaAddToCartButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp14"
+                android:layout_marginBottom="@dimen/dp20"
+                android:layout_gravity="center"
+                android:text="@string/addToCartButtonText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

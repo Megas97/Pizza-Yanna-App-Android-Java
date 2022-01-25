@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PromoCodesFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/promoCodesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/promoCodesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp32"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp20"
+                android:layout_marginBottom="@dimen/dp20"
+                android:text="@string/promoCodesText" />
+
+            <ImageView
+                android:id="@+id/promoCodesImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/promo" />
+
+            <TextView
+                android:id="@+id/promoCodesDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp20"
+                android:gravity="center"
+                android:text="@string/promoCodesDescription"
+                android:textSize="@dimen/sp26" />
+
+            <TextView
+                android:id="@+id/availablePromoCodesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp28"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp30"
+                android:text="@string/availablePromoCodesText" />
+
+            <TextView
+                android:id="@+id/firstPromoCodeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp24"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="@dimen/dp4"
+                android:background="#CDCDCD"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="@string/firstPromoCodeText" />
+
+            <TextView
+                android:id="@+id/secondPromoCodeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp24"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="@dimen/dp4"
+                android:background="#CDCDCD"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="@string/secondPromoCodeText" />
+
+            <TextView
+                android:id="@+id/thirdPromoCodeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp24"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="@dimen/dp4"
+                android:background="#CDCDCD"
+                android:layout_marginTop="@dimen/dp20"
+                android:layout_marginBottom="@dimen/dp20"
+                android:text="@string/thirdPromoCodeText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

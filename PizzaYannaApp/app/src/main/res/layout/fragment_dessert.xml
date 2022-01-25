@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DessertFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp56">
+
+        <LinearLayout
+            android:id="@+id/drinkMenuContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--region Top Portion Of Page-->
+            <TextView
+                android:id="@+id/menuText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp20"
+                android:gravity="center"
+                android:text="@string/menuText"
+                android:textSize="@dimen/sp32" />
+
+            <TextView
+                android:id="@+id/dessertText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp22"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="@string/dessertText" />
+            <!--endregion-->
+
+            <!--region Choco Pie Dessert Part-->
+            <LinearLayout
+                android:id="@+id/pieDessertContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp30"
+                android:weightSum="1">
+
+                <!--region Choco Pie Dessert Left Part-->
+                <LinearLayout
+                    android:id="@+id/pieDessertLeftContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:id="@+id/pieDessertNameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/pieDessertText" />
+
+                    <ImageView
+                        android:id="@+id/pieDessertImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/choco_pie" />
+
+                    <TextView
+                        android:id="@+id/pieDessertPriceText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/dessertSmallPriceText" />
+
+                </LinearLayout>
+                <!--endregion-->
+
+                <!--region Choco Pie Dessert Right Part-->
+                <LinearLayout
+                    android:id="@+id/pieDessertRightContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/pieChooseSizeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/chooseSizeText" />
+
+                    <Spinner
+                        android:id="@+id/pieDessertDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+                    <!--region Choco Pie Dessert Quantity Part-->
+                    <LinearLayout
+                        android:id="@+id/pieDessertQuantityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp8">
+
+                        <Button
+                            android:id="@+id/pieDessertDecreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/decreaseQuantityButtonText" />
+
+                        <TextView
+                            android:id="@+id/pieDessertQuantityAmountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp6"
+                            android:layout_marginRight="@dimen/dp6"
+                            android:text="@string/defaultQuantityAmountText"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30" />
+
+                        <Button
+                            android:id="@+id/pieDessertIncreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/increaseQuantityButtonText" />
+                    </LinearLayout>
+                    <!--endregion-->
+
+                    <Button
+                        android:id="@+id/pieDessertAddToCartButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp14"
+                        android:gravity="center"
+                        android:text="@string/addToCartButtonText" />
+                </LinearLayout>
+                <!--endregion-->
+            </LinearLayout>
+            <!--endregion-->
+
+            <!--region Choco Icecream Dessert Part-->
+            <LinearLayout
+                android:id="@+id/icecreamDessertContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp30"
+                android:layout_marginBottom="@dimen/dp30"
+                android:weightSum="1">
+
+                <!--region Choco Icecream Dessert Left Part-->
+                <LinearLayout
+                    android:id="@+id/icecreamDessertLeftContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:id="@+id/icecreamDessertNameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/icecreamDessertText" />
+
+                    <ImageView
+                        android:id="@+id/icecreamDessertImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/choco_icecream" />
+
+                    <TextView
+                        android:id="@+id/icecreamDessertPriceText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/dessertSmallPriceText" />
+
+                </LinearLayout>
+                <!--endregion-->
+
+                <!--region Choco Icecream Dessert Right Part-->
+                <LinearLayout
+                    android:id="@+id/icecreamDessertRightContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/icecreamChooseSizeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/chooseSizeText" />
+
+                    <Spinner
+                        android:id="@+id/icecreamDessertDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+                    <!--region Choco Icecream Dessert Quantity Part-->
+                    <LinearLayout
+                        android:id="@+id/icecreamDessertQuantityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp8">
+
+                        <Button
+                            android:id="@+id/icecreamDessertDecreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/decreaseQuantityButtonText" />
+
+                        <TextView
+                            android:id="@+id/icecreamDessertQuantityAmountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp6"
+                            android:layout_marginRight="@dimen/dp6"
+                            android:text="@string/defaultQuantityAmountText"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30" />
+
+                        <Button
+                            android:id="@+id/icecreamDessertIncreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/increaseQuantityButtonText" />
+                    </LinearLayout>
+                    <!--endregion-->
+
+                    <Button
+                        android:id="@+id/icecreamDessertAddToCartButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp14"
+                        android:gravity="center"
+                        android:text="@string/addToCartButtonText" />
+                </LinearLayout>
+                <!--endregion-->
+
+            </LinearLayout>
+            <!--endregion-->
+
+            <!--region Choco Flan Drink Part-->
+            <LinearLayout
+                android:id="@+id/flanDessertContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp30"
+                android:layout_marginBottom="@dimen/dp30"
+                android:weightSum="1">
+
+                <!--region Choco Flan Dessert Left Part-->
+                <LinearLayout
+                    android:id="@+id/flanDessertLeftContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:id="@+id/flanDessertNameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/flanDessertText" />
+
+                    <ImageView
+                        android:id="@+id/flanDessertImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/choco_flan" />
+
+                    <TextView
+                        android:id="@+id/flanDessertPriceText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/dessertSmallPriceText" />
+
+                </LinearLayout>
+                <!--endregion-->
+
+                <!--region Choco Flan Dessert Right Part-->
+                <LinearLayout
+                    android:id="@+id/flanDessertRightContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/flanChooseSizeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/chooseSizeText" />
+
+                    <Spinner
+                        android:id="@+id/flanDessertDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+                    <!--region Choco Flan Dessert Quantity Part-->
+                    <LinearLayout
+                        android:id="@+id/flanDessertQuantityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp8">
+
+                        <Button
+                            android:id="@+id/flanDessertDecreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/decreaseQuantityButtonText" />
+
+                        <TextView
+                            android:id="@+id/flanDessertQuantityAmountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp6"
+                            android:layout_marginRight="@dimen/dp6"
+                            android:text="@string/defaultQuantityAmountText"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30" />
+
+                        <Button
+                            android:id="@+id/flanDessertIncreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/increaseQuantityButtonText" />
+                    </LinearLayout>
+                    <!--endregion-->
+
+                    <Button
+                        android:id="@+id/flanDessertAddToCartButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp14"
+                        android:gravity="center"
+                        android:text="@string/addToCartButtonText" />
+                </LinearLayout>
+                <!--endregion-->
+
+            </LinearLayout>
+            <!--endregion-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

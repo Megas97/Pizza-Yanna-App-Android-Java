@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DrinkFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp56">
+
+        <LinearLayout
+            android:id="@+id/drinkMenuContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--region Top Portion Of Page-->
+            <TextView
+                android:id="@+id/menuText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp20"
+                android:gravity="center"
+                android:text="@string/menuText"
+                android:textSize="@dimen/sp32" />
+
+            <TextView
+                android:id="@+id/drinkText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp22"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="@string/drinkText" />
+            <!--endregion-->
+
+            <!--region Coca Cola Drink Part-->
+            <LinearLayout
+                android:id="@+id/colaDrinkContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp30"
+                android:weightSum="1">
+
+                <!--region Coca Cola Drink Left Part-->
+                <LinearLayout
+                    android:id="@+id/colaDrinkLeftContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:id="@+id/colaDrinkNameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/colaDrinkText" />
+
+                    <ImageView
+                        android:id="@+id/colaDrinkImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/coca_cola" />
+
+                    <TextView
+                        android:id="@+id/colaDrinkPriceText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/drinkSmallPriceText" />
+
+                </LinearLayout>
+                <!--endregion-->
+
+                <!--region Coca Cola Drink Right Part-->
+                <LinearLayout
+                    android:id="@+id/colaDrinkRightContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="@dimen/dp30"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/colaChooseSizeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/chooseSizeText" />
+
+                    <Spinner
+                        android:id="@+id/colaDrinkDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+                    <!--region Coca Cola Drink Quantity Part-->
+                    <LinearLayout
+                        android:id="@+id/colaDrinkQuantityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp8">
+
+                        <Button
+                            android:id="@+id/colaDrinkDecreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/decreaseQuantityButtonText" />
+
+                        <TextView
+                            android:id="@+id/colaDrinkQuantityAmountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp6"
+                            android:layout_marginRight="@dimen/dp6"
+                            android:text="@string/defaultQuantityAmountText"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30" />
+
+                        <Button
+                            android:id="@+id/colaDrinkIncreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/increaseQuantityButtonText" />
+                    </LinearLayout>
+                    <!--endregion-->
+
+                    <Button
+                        android:id="@+id/colaDrinkAddToCartButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp14"
+                        android:gravity="center"
+                        android:text="@string/addToCartButtonText" />
+                </LinearLayout>
+                <!--endregion-->
+            </LinearLayout>
+            <!--endregion-->
+
+            <!--region Sprite Drink Part-->
+            <LinearLayout
+                android:id="@+id/spriteDrinkContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp30"
+                android:layout_marginBottom="@dimen/dp30"
+                android:weightSum="1">
+
+                <!--region Sprite Drink Left Part-->
+                <LinearLayout
+                    android:id="@+id/spriteDrinkLeftContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:id="@+id/spriteDrinkNameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/spriteDrinkText" />
+
+                    <ImageView
+                        android:id="@+id/spriteDrinkImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/sprite" />
+
+                    <TextView
+                        android:id="@+id/spriteDrinkPriceText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/drinkSmallPriceText" />
+
+                </LinearLayout>
+                <!--endregion-->
+
+                <!--region Sprite Drink Right Part-->
+                <LinearLayout
+                    android:id="@+id/spriteDrinkRightContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="@dimen/dp30"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/spriteChooseSizeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/chooseSizeText" />
+
+                    <Spinner
+                        android:id="@+id/spriteDrinkDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+                    <!--region Sprite Drink Quantity Part-->
+                    <LinearLayout
+                        android:id="@+id/spriteDrinkQuantityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp8">
+
+                        <Button
+                            android:id="@+id/spriteDrinkDecreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/decreaseQuantityButtonText" />
+
+                        <TextView
+                            android:id="@+id/spriteDrinkQuantityAmountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp6"
+                            android:layout_marginRight="@dimen/dp6"
+                            android:text="@string/defaultQuantityAmountText"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30" />
+
+                        <Button
+                            android:id="@+id/spriteDrinkIncreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/increaseQuantityButtonText" />
+                    </LinearLayout>
+                    <!--endregion-->
+
+                    <Button
+                        android:id="@+id/spriteDrinkAddToCartButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp14"
+                        android:gravity="center"
+                        android:text="@string/addToCartButtonText" />
+                </LinearLayout>
+                <!--endregion-->
+
+            </LinearLayout>
+            <!--endregion-->
+
+            <!--region Fanta Drink Part-->
+            <LinearLayout
+                android:id="@+id/fantaDrinkContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp30"
+                android:layout_marginBottom="@dimen/dp30"
+                android:weightSum="1">
+
+                <!--region Fanta Drink Left Part-->
+                <LinearLayout
+                    android:id="@+id/fantaDrinkLeftContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:id="@+id/fantaDrinkNameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/spriteDrinkText" />
+
+                    <ImageView
+                        android:id="@+id/fantaDrinkImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fanta" />
+
+                    <TextView
+                        android:id="@+id/fantaDrinkPriceText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/drinkSmallPriceText" />
+
+                </LinearLayout>
+                <!--endregion-->
+
+                <!--region Fanta Drink Right Part-->
+                <LinearLayout
+                    android:id="@+id/fantaDrinkRightContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="@dimen/dp30"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/fantaChooseSizeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/chooseSizeText" />
+
+                    <Spinner
+                        android:id="@+id/fantaDrinkDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+                    <!--region Fanta Drink Quantity Part-->
+                    <LinearLayout
+                        android:id="@+id/fantaDrinkQuantityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp8">
+
+                        <Button
+                            android:id="@+id/fantaDrinkDecreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/decreaseQuantityButtonText" />
+
+                        <TextView
+                            android:id="@+id/fantaDrinkQuantityAmountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp6"
+                            android:layout_marginRight="@dimen/dp6"
+                            android:text="@string/defaultQuantityAmountText"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30" />
+
+                        <Button
+                            android:id="@+id/fantaDrinkIncreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/increaseQuantityButtonText" />
+                    </LinearLayout>
+                    <!--endregion-->
+
+                    <Button
+                        android:id="@+id/fantaDrinkAddToCartButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp14"
+                        android:gravity="center"
+                        android:text="@string/addToCartButtonText" />
+                </LinearLayout>
+                <!--endregion-->
+
+            </LinearLayout>
+            <!--endregion-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

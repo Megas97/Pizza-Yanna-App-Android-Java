@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PizzaFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp56">
+        <LinearLayout
+            android:id="@+id/pizzaMenuContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--region Top Portion Of Page-->
+            <TextView
+                android:id="@+id/menuText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp20"
+                android:gravity="center"
+                android:text="@string/menuText"
+                android:textSize="@dimen/sp32" />
+
+            <TextView
+                android:id="@+id/pizzaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp22"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="@string/pizzaText" />
+
+            <TextView
+                android:id="@+id/dIYPizzaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp27"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="@string/dIYPizzaText" />
+
+            <ImageView
+                android:id="@+id/dIYPizzaImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@drawable/diy" />
+            <!--endregion-->
+
+            <!--region Barbecue Pizza Part-->
+            <LinearLayout
+                android:id="@+id/barbecuePizzaContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp30"
+                android:weightSum="1">
+
+                <!--region Barbecue Pizza Left Part-->
+                <LinearLayout
+                    android:id="@+id/barbecuePizzaLeftContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+                    <TextView
+                        android:id="@+id/barbecuePizzaNameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/barbecuePizzaText" />
+
+                    <ImageView
+                        android:id="@+id/barbecuePizzaImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/barbecue_pizza" />
+
+                    <TextView
+                        android:id="@+id/barbecuePizzaPriceText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/pizzaSmallPriceText" />
+                </LinearLayout>
+                <!--endregion-->
+
+                <!--region Barbecue Pizza Right Part-->
+                <LinearLayout
+                    android:id="@+id/barbecuePizzaRightContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/barbecueChooseSizeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/chooseSizeText" />
+
+                    <Spinner
+                        android:id="@+id/barbecuePizzaDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+                    <!--region Barbecue Pizza Quantity Part-->
+                    <LinearLayout
+                        android:id="@+id/barbecuePizzaQuantityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp8">
+
+                        <Button
+                            android:id="@+id/barbecuePizzaDecreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/decreaseQuantityButtonText" />
+
+                        <TextView
+                            android:id="@+id/barbecuePizzaQuantityAmountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp6"
+                            android:layout_marginRight="@dimen/dp6"
+                            android:text="@string/defaultQuantityAmountText"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30" />
+
+                        <Button
+                            android:id="@+id/barbecuePizzaIncreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/increaseQuantityButtonText" />
+                    </LinearLayout>
+                    <!--endregion-->
+
+                    <Button
+                        android:id="@+id/barbecuePizzaAddToCartButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp14"
+                        android:gravity="center"
+                        android:text="@string/addToCartButtonText" />
+                </LinearLayout>
+                <!--endregion-->
+
+            </LinearLayout>
+            <!--endregion-->
+
+            <!--region Pepperoni Pizza Part-->
+            <LinearLayout
+                android:id="@+id/pepperoniPizzaContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp30"
+                android:layout_marginBottom="@dimen/dp30"
+                android:weightSum="1">
+
+                <!--region Pepperoni Pizza Left Part-->
+                <LinearLayout
+                    android:id="@+id/pepperoniPizzaLeftContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+                    <TextView
+                        android:id="@+id/pepperoniPizzaNameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/pepperoniPizzaText" />
+
+                    <ImageView
+                        android:id="@+id/pepperoniPizzaImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/pepperoni_pizza" />
+
+                    <TextView
+                        android:id="@+id/pepperoniPizzaPriceText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/pizzaSmallPriceText" />
+                </LinearLayout>
+                <!--endregion-->
+
+                <!--region Pepperoni Pizza Right Part-->
+                <LinearLayout
+                    android:id="@+id/pepperoniPizzaRightContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/pepperoniChooseSizeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp27"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:text="@string/chooseSizeText" />
+
+                    <Spinner
+                        android:id="@+id/pepperoniPizzaDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+                    <!--region Pepperoni Pizza Quantity Part-->
+                    <LinearLayout
+                        android:id="@+id/pepperoniPizzaQuantityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/dp8">
+
+                        <Button
+                            android:id="@+id/pepperoniPizzaDecreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/decreaseQuantityButtonText" />
+
+                        <TextView
+                            android:id="@+id/pepperoniPizzaQuantityAmountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp6"
+                            android:layout_marginRight="@dimen/dp6"
+                            android:text="@string/defaultQuantityAmountText"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30" />
+
+                        <Button
+                            android:id="@+id/pepperoniPizzaIncreaseQuantityButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/increaseQuantityButtonText" />
+                    </LinearLayout>
+                    <!--endregion-->
+
+                    <Button
+                        android:id="@+id/pepperoniPizzaAddToCartButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp14"
+                        android:gravity="center"
+                        android:text="@string/addToCartButtonText" />
+                </LinearLayout>
+                <!--endregion-->
+
+            </LinearLayout>
+            <!--endregion-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RegisterFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/registerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp7"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/sp32"
+                android:text="@string/registerText" />
+
+            <TextView
+                android:id="@+id/usernameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/registerText"
+                android:textSize="@dimen/sp24"
+                android:text="@string/usernameText" />
+
+            <EditText
+                android:id="@+id/usernameInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_below="@id/usernameText"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/sp24"
+                android:hint="@string/usernameHint"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/usernameInput"
+                android:textSize="@dimen/sp24"
+                android:layout_marginTop="@dimen/dp8"
+                android:text="@string/emailText" />
+
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_below="@id/emailText"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/sp24"
+                android:hint="@string/emailHint"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/phoneText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/emailInput"
+                android:textSize="@dimen/sp24"
+                android:layout_marginTop="@dimen/dp8"
+                android:text="@string/phoneNumberText" />
+
+            <EditText
+                android:id="@+id/phoneInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phoneText"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/phoneNumberHint"
+                android:inputType="phone"
+                android:textSize="@dimen/sp24" />
+
+            <TextView
+                android:id="@+id/addressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/phoneInput"
+                android:textSize="@dimen/sp24"
+                android:layout_marginTop="@dimen/dp8"
+                android:text="@string/homeAddressText" />
+
+            <EditText
+                android:id="@+id/addressInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addressText"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/homeAddressHint"
+                android:inputType="textPostalAddress"
+                android:textSize="@dimen/sp24" />
+
+            <TextView
+                android:id="@+id/passwordText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addressInput"
+                android:textSize="@dimen/sp24"
+                android:layout_marginTop="@dimen/dp8"
+                android:layout_centerHorizontal="true"
+                android:text="@string/passwordText" />
+
+            <EditText
+                android:id="@+id/passwordInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_below="@id/passwordText"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/sp24"
+                android:hint="@string/passwordHint"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/confirmPasswordText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/passwordInput"
+                android:textSize="@dimen/sp24"
+                android:layout_marginTop="@dimen/dp8"
+                android:layout_centerHorizontal="true"
+                android:text="@string/confirmPasswordText" />
+
+            <EditText
+                android:id="@+id/confirmPasswordInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_below="@id/confirmPasswordText"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/sp24"
+                android:hint="@string/passwordHint"
+                android:inputType="textPassword" />
+
+            <CheckBox
+                android:id="@+id/registerCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dpMinus8"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/confirmPasswordInput"
+                android:text="@string/termsOfUseText" />
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registerCheckbox"
+                android:layout_marginTop="@dimen/dpMinus8"
+                android:layout_centerHorizontal="true"
+                android:text="@string/registerButton2Text" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

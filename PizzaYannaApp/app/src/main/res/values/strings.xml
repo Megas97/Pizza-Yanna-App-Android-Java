@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Pizza Yanna</string>
+
+    <!-- Login Screen Layout -->
+    <string name="mottoText"><i>The best pizza in Sofia!</i></string>
+    <string name="loginText"><i><b>Login</b></i></string>
+    <string name="usernameText"><i><b>Username:</b></i></string>
+    <string name="usernameHint"><i>Enter username here</i></string>
+    <string name="passwordText"><i><b>Password:</b></i></string>
+    <string name="passwordHint"><i>Enter password here</i></string>
+    <string name="loginButtonText">Login</string>
+    <string name="googleButtonText">G</string>
+    <string name="facebookButtonText">FB</string>
+    <string name="forgotPasswordButtonText">Forgot password?</string>
+    <string name="registerButtonText">Don\'t have an account?\n Register here!</string>
+
+    <!-- Forgot Password Screen Layout -->
+    <string name="forgotPasswordText"><i><b>Forgot Password</b></i></string>
+    <string name="forgotPasswordDescription"><i>A confirmation mail has been sent to the email linked to your account. Please enter the 6-digit code from the email here:</i></string>
+    <string name="forgotPasswordCodeHint"><i>Enter 6-digit code here</i></string>
+    <string name="newPasswordText"><i><b>New Password:</b></i></string>
+    <string name="forgotPasswordPasswordHint"><i>Enter new password here</i></string>
+    <string name="changePasswordButtonText">Change</string>
+
+    <!-- Register Screen Layout -->
+    <string name="registerText"><i><b>Register</b></i></string>
+    <string name="emailText"><i><b>Email:</b></i></string>
+    <string name="emailHint"><i>Enter email here</i></string>
+    <string name="phoneNumberText"><i><b>Phone Number:</b></i></string>
+    <string name="phoneNumberHint"><i>Enter phone number here</i></string>
+    <string name="homeAddressText"><i><b>Home Address:</b></i></string>
+    <string name="homeAddressHint"><i>Enter home address here</i></string>
+    <string name="confirmPasswordText"><i><b>Confirm Password:</b></i></string>
+    <string name="termsOfUseText">I accept the <u>terms of use</u></string>
+    <string name="registerButton2Text">Register</string>
+
+    <!-- Privacy Policy Screen Layout -->
+    <string name="privacyPolicyText"><i><b>Privacy Policy</b></i></string>
+    <string name="privacyPolicyDescription"><![CDATA[Terms & Conditions\n1. SCOPE / GENERAL\nThe service provider of this website is Pizza Yanna.\n\nAddress:\nPizza Yanna\nSofia, Bulgaria\nTel: +359-98052-6399\nE-mail: Support@example.com\nPresident of management: Simeon Mihailov\n\nPizza Yanna services are restricted to the territories of Bulgaria. The range of products on offer may differ slightly depending on the location of the store. These Terms and Conditions apply to all Pizza Yanna services in Bulgaria.\n\n2. REGISTRATION and ORDER PLACEMENT\n2.1. Registration\nOnly legally competent persons may register with the online shop. Registration is free of charge. No entitlement exists for admission to the online shop. The data required for registration that are provided by the customer, must be complete and accurate. The customer is responsible for updating their own data.\n\n2.2. Order placement / contractual relationship\nOnline orders must be placed via the order page. Pizza Yanna may decide for any reason whatsoever not to accept an order and to refuse to confirm it. In placing an order, the customer confirms the accuracy of all the information they provide.\n\n2.3. Volume limitations\nIn all cases, Pizza Yanna reserves the right to limit the delivery quantity for particular products or, if need be, not to deliver a particular product at all.\n\n2.4. Amending and cancelling orders\nAn order cannot be amended once it has been confirmed.\n\n2.5. Incomplete order fulfillment\nPizza Yanna’s primary objective is to deliver all products ordered in the right quantity and to a high quality standard. In exceptional cases for various reasons, however, insufficient products may be available or it may not be possible to release a product. If products are unavailable at the time of delivery, they are not delivered later and no substitute products are delivered. The actual quantity delivered is stated on the delivery receipt. The customer is not entitled to compensation, pecuniary or in kind, in respect to quantities delivered partially or not at all. If an item is not delivered, despite being billed, the amount in question will be credited to the customer. No subsequent delivery will be made, and the customer is not entitled to claim compensation.\n\n\n3. DELIVERY\n3.1. Order delivery\nOrders are delivered directly to the delivery address and recipient specified by the customer. Deliveries are made by Pizza Yanna’s delivery service. Orders will be delivered to the front door of private residences (as far as accessible) or the reception desk of business customers.\n\n3.2. Delivery times and adherence to delivery periods\nPizza Yanna makes every effort to adhere to the delivery periods. However, all delivery times specified by Pizza Yanna are for guidance purposes only. If a delivery period is not complied with, the customer is not entitled to withdraw from the contract or to receive compensation. Should Pizza Yanna not be able to deliver an order, there is no obligation to carry out the delivery. The customer is not thereby entitled to compensation.\n\n3.3. Delivery charges\nThe delivery is free of charge.\n\n\n3.4. Cancellation of a delivery\nPizza Yanna aims to hand the order over to the customer personally. If, for reasons beyond Pizza Yanna’s control - such as an incorrect delivery address, the recipient\'s absence, lack of an access, bad weather or road condition, or similar, it should prove impossible or possible only with great difficulty, to carry out the delivery successfully, Pizza Yanna is entitled to cancel the order. In this event, the customer is not entitled to compensation, pecuniary or in kind.\n\n\n4. PRICES and PAYMENT\n4.1. Prices\nAll prices are quoted in Bulgarian Lev, including VAT at the applicable rate. The prices charged are those displayed on the www.pizza-yanna.somee.com website at the time of the order. Regional differences may occur.\n\n4.2. Payment methods\nPayment of the order must be made in Bulgarian Levs. In addition to cash payment, various payment methods are available. Payments made via the website are made to Pizza Yanna.\n\n\n5. GUARANTEE of DATA COMMUNICATION\nGiven the current state of technology, no guarantee can be given that data communication via the Internet will be error-free and/or available at all times. Pizza Yanna therefore accepts no liability in respect to the constant, uninterrupted availability of the online site, nor for technical and electronic errors during a sales transaction, in particular for any delay in processing or accepting orders.\n\n\n6. CUSTOMER SERVICE & COMPLAINTS\nCustomer Service provides information and personal advice regarding any questions, problems or complaints about Pizza Yanna’s services.\n\n\nPizza Yanna\nCustomer Service\nSofia, Bulgaria\nE-mail: Support@example.com\nCall Center: +359-98052-6399\n\n\n7. GENERAL TERMS\n7.1. Severability clause\nShould any provisions of these Terms and Conditions prove to be unenforceable or invalid, the validity of the remaining provisions shall remain unaffected.\n\n7.2. Disclaimer\nIf Pizza Yanna provides links to other services, Pizza Yanna is not responsible for the content or privacy practices of these services.\n\n7.3. Trademarks and Copyright\nAll content included on this site, such as text, graphics, button icons, images and software, is the property of Pizza Yanna and is protected by Bulgarian and international copyright laws. The content and software on this site may be used as either or both of an informational or shopping resource. Any other use, including the reproduction, modification, distribution, transmission, republication, display or performance of the content on this site is strictly prohibited. Pizza Yanna graphics, logos and trade names are trademarks of DPL and they may not be used in connection with any product or service that is not affiliated with DPL in any manner that is likely to cause confusion among customers, or in any manner that disparages or discredits Pizza Yanna.\n\n7.4. Applicable law and jurisdiction\nThis Terms & Conditions shall be governed by and construed in accordance with the laws of Bulgaria. You agree to submit any dispute arising to the competent courts at the legal seat of Pizza Yanna in Sofia, Bulgaria.\n\n© 2021-2022 - Pizza Yanna - Sofia, Bulgaria]]></string>
+
+    <!-- Side Navigation Drawer Layout -->
+    <string name="navigationDrawerOpenText">Open navigation drawer</string>
+    <string name="navigationDrawerCloseText">Close navigation drawer</string>
+    <string name="navPromoCodesText">Promo Codes</string>
+    <string name="navPrivacyPolicyText">Privacy Policy</string>
+    <string name="navAboutUsText">About Us</string>
+    <string name="navAccountText">Account</string>
+    <string name="navProfileText">Profile</string>
+    <string name="navLogoutText">Logout</string>
+
+    <!-- Bottom Navigation Bar Layout -->
+    <string name="navPizzasText">Pizzas</string>
+    <string name="navDrinksText">Drinks</string>
+    <string name="navDessertsText">Desserts</string>
+    <string name="navCartText">Cart</string>
+
+    <!-- Menu Screen Layout -->
+    <string name="menuText"><i><b>Menu</b></i></string>
+    <string name="chooseSizeText"><i>Choose size:</i></string>
+    <string name="decreaseQuantityButtonText">-</string>
+    <string name="defaultQuantityAmountText"><b>1</b></string>
+    <string name="increaseQuantityButtonText">+</string>
+    <string name="addToCartButtonText">Add To Cart</string>
+
+    <!-- DIY Pizza Screen Layout -->
+    <string name="yourVeryOwnPizzaText"><i><b>Your Very Own Pizza</b></i></string>
+    <string name="greeneryDropdownText"><i>Greenery</i></string>
+    <string name="meatsDropdownText"><i>Meats</i></string>
+    <string name="saucesDropdownText"><i>Sauces</i></string>
+    <string name="addonsDropdownText"><i>Addons</i></string>
+    <string name="estimatedPriceText"><i>Estimated Price:</i></string>
+    <!-- Pizzas Screen Layout -->
+    <string name="pizzaText"><i><b><u>Pizzas</u></b></i></string>
+    <string name="dIYPizzaText"><i>Do It Yourself</i></string>
+    <string name="barbecuePizzaText"><i>Barbecue</i></string>
+    <string name="pepperoniPizzaText"><i>Pepperoni</i></string>
+    <string name="pizzaSmallPriceText"><i>11.99 BGN</i></string>
+    <string name="pizzaMediumPriceText"><i>14.99 BGN</i></string>
+    <string name="pizzaLargePriceText"><i>17.99 BGN</i></string>
+
+    <!-- Drinks Screen Layout -->
+    <string name="drinkText"><i><b><u>Drinks</u></b></i></string>
+    <string name="colaDrinkText"><i>Coca Cola</i></string>
+    <string name="spriteDrinkText"><i>Sprite</i></string>
+    <string name="fantaDrinkText"><i>Fanta</i></string>
+    <string name="drinkSmallPriceText"><i>1.39 BGN</i></string>
+    <string name="drinkMediumPriceText"><i>2.19 BGN</i></string>
+    <string name="drinkLargePriceText"><i>2.99 BGN</i></string>
+
+    <!-- Desserts Screen Layout -->
+    <string name="dessertText"><i><b><u>Desserts</u></b></i></string>
+    <string name="pieDessertText"><i>Choco Pie</i></string>
+    <string name="icecreamDessertText"><i>Choco Icecream</i></string>
+    <string name="flanDessertText"><i>Choco Flan</i></string>
+    <string name="dessertSmallPriceText"><i>3.99 BGN</i></string>
+    <string name="dessertMediumPriceText"><i>5.99 BGN</i></string>
+    <string name="dessertLargePriceText"><i>7.99 BGN</i></string>
+
+    <!-- Cart Screen Layout -->
+    <string name="cartText"><i><b>Cart</b></i></string>
+    <string name="cartEmptyText">Your cart is empty</string>
+    <string name="removeButtonText">Remove</string>
+    <string name="checkoutButtonText">Checkout</string>
+
+    <!-- Checkout Screen Layout -->
+    <string name="checkoutText"><i><b>Checkout</b></i></string>
+    <string name="orderText">Your order is on its way</string>
+
+    <!-- Promo Codes Screen Layout -->
+    <string name="promoCodesText"><i><b>Promo Codes</b></i></string>
+    <string name="promoCodesDescription"><i>Make an order and you have the chance to get a promo code, which you can use in your next purchase!</i></string>
+    <string name="availablePromoCodesText"><i><b>Available Promo Codes:</b></i></string>
+    <string name="firstPromoCodeText"><i><b>9254-7183-1493-1873</b></i></string>
+    <string name="secondPromoCodeText"><i><b>3863-4763-7378-3625</b></i></string>
+    <string name="thirdPromoCodeText"><i><b>8165-3625-6731-5620</b></i></string>
+
+    <!-- About Us Screen Layout -->
+    <string name="aboutUsText"><i><b>About Us</b></i></string>
+    <string name="developedByText"><i><b>Developed By:</b></i></string>
+    <string name="developerText">\nSimeon Mihailov\nF83533</string>
+    <string name="aboutUsFooterText">©2022 - Pizza Yanna - Sofia, Bulgaria</string>
+
+    <!-- Profile Screen Layout -->
+    <string name="profileText"><i><b>Profile</b></i></string>
+    <string name="updateProfileButtonText">Update</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

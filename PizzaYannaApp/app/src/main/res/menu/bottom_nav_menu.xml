@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_pizzas"
+        android:icon="@drawable/pizza_icon"
+        android:title="@string/navPizzasText" />
+    <item
+        android:id="@+id/nav_drinks"
+        android:icon="@drawable/drink_icon"
+        android:title="@string/navDrinksText" />
+    <item
+        android:id="@+id/nav_desserts"
+        android:icon="@drawable/dessert_icon"
+        android:title="@string/navDessertsText" />
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/cart_icon"
+        android:title="@string/navCartText" />
+</menu>

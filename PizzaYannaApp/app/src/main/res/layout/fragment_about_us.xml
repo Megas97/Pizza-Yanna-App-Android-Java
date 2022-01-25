@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AboutUsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/drinkMenuContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/aboutUsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp32"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp20"
+                android:layout_marginBottom="@dimen/dp170"
+                android:text="@string/aboutUsText" />
+
+            <RelativeLayout
+                android:id="@+id/aboutUsContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corners"
+                android:layout_marginRight="@dimen/dp50"
+                android:layout_marginLeft="@dimen/dp50"
+                android:paddingTop="@dimen/dp50"
+                android:paddingBottom="@dimen/dp50">
+
+                <TextView
+                    android:id="@+id/aboutUsDevelopedByText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp24"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/developedByText" />
+
+                <TextView
+                    android:id="@+id/aboutUsDeveloperText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp24"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_below="@id/aboutUsDevelopedByText"
+                    android:text="@string/developerText" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/aboutUsImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/dpMinus60"
+                android:src="@drawable/copyright" />
+
+            <TextView
+                android:id="@+id/aboutUsFooterText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:layout_marginTop="@dimen/dp146"
+                android:textSize="@dimen/sp24"
+                android:gravity="center"
+                android:text="@string/aboutUsFooterText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
